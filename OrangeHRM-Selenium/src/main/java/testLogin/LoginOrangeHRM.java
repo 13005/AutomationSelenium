@@ -35,7 +35,7 @@ public class LoginOrangeHRM {
 	// OrangeHRM Login validation Test
 	@Test
 	public void test() {
-		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin"); //Send valid username
+		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin"); //Send valid Username
 		driver.findElement(By.name("password")).sendKeys("admin123");//send valid password
 		driver.findElement(By.cssSelector("[type=submit]")).click();//click login button
 		try {
